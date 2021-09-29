@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B533203327040098007A99CF /* GardenTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533203227040098007A99CF /* GardenTutorialApp.swift */; };
-		B533203527040098007A99CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533203427040098007A99CF /* ContentView.swift */; };
 		B53320372704009C007A99CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53320362704009C007A99CF /* Assets.xcassets */; };
 		B533203A2704009C007A99CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53320392704009C007A99CF /* Preview Assets.xcassets */; };
 		B533203C2704009C007A99CF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533203B2704009C007A99CF /* Persistence.swift */; };
@@ -16,6 +15,12 @@
 		B53320492704009C007A99CF /* GardenTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53320482704009C007A99CF /* GardenTutorialTests.swift */; };
 		B53320532704009D007A99CF /* GardenTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53320522704009D007A99CF /* GardenTutorialUITests.swift */; };
 		B53320552704009D007A99CF /* GardenTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53320542704009D007A99CF /* GardenTutorialUITestsLaunchTests.swift */; };
+		B533206927040489007A99CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533206827040489007A99CF /* Constants.swift */; };
+		B533206B270405CD007A99CF /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533206A270405CD007A99CF /* Webservice.swift */; };
+		B533206D27040606007A99CF /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533206C27040606007A99CF /* Vegetable.swift */; };
+		B5332070270408A4007A99CF /* VegetableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533206F270408A4007A99CF /* VegetableListViewModel.swift */; };
+		B533207227040A51007A99CF /* VegetableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533207127040A51007A99CF /* VegetableListScreen.swift */; };
+		B533207527040C62007A99CF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B533207427040C62007A99CF /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 /* Begin PBXFileReference section */
 		B533202F27040098007A99CF /* GardenTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B533203227040098007A99CF /* GardenTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenTutorialApp.swift; sourceTree = "<group>"; };
-		B533203427040098007A99CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B53320362704009C007A99CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53320392704009C007A99CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B533203B2704009C007A99CF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +52,14 @@
 		B533204E2704009D007A99CF /* GardenTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53320522704009D007A99CF /* GardenTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenTutorialUITests.swift; sourceTree = "<group>"; };
 		B53320542704009D007A99CF /* GardenTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B533206227040145007A99CF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B533206827040489007A99CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B533206A270405CD007A99CF /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		B533206C27040606007A99CF /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
+		B533206E2704082D007A99CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B533206F270408A4007A99CF /* VegetableListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListViewModel.swift; sourceTree = "<group>"; };
+		B533207127040A51007A99CF /* VegetableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListScreen.swift; sourceTree = "<group>"; };
+		B533207427040C62007A99CF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,7 @@
 		B533202627040098007A99CF = {
 			isa = PBXGroup;
 			children = (
+				B533206227040145007A99CF /* .gitignore */,
 				B533203127040098007A99CF /* GardenTutorial */,
 				B53320472704009C007A99CF /* GardenTutorialTests */,
 				B53320512704009D007A99CF /* GardenTutorialUITests */,
@@ -98,8 +111,14 @@
 		B533203127040098007A99CF /* GardenTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B533207327040C4C007A99CF /* Extensions */,
+				B533206E2704082D007A99CF /* Info.plist */,
+				B53320672704046B007A99CF /* Utils */,
+				B533206627040442007A99CF /* View Models */,
+				B53320652704043B007A99CF /* Models */,
+				B533206427040435007A99CF /* Services */,
+				B5332063270401ED007A99CF /* Screens */,
 				B533203227040098007A99CF /* GardenTutorialApp.swift */,
-				B533203427040098007A99CF /* ContentView.swift */,
 				B53320362704009C007A99CF /* Assets.xcassets */,
 				B533203B2704009C007A99CF /* Persistence.swift */,
 				B533203D2704009C007A99CF /* GardenTutorial.xcdatamodeld */,
@@ -131,6 +150,54 @@
 				B53320542704009D007A99CF /* GardenTutorialUITestsLaunchTests.swift */,
 			);
 			path = GardenTutorialUITests;
+			sourceTree = "<group>";
+		};
+		B5332063270401ED007A99CF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B533207127040A51007A99CF /* VegetableListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B533206427040435007A99CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B533206A270405CD007A99CF /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B53320652704043B007A99CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B533206C27040606007A99CF /* Vegetable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B533206627040442007A99CF /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B533206F270408A4007A99CF /* VegetableListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		B53320672704046B007A99CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B533206827040489007A99CF /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B533207327040C4C007A99CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B533207427040C62007A99CF /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B533206927040489007A99CF /* Constants.swift in Sources */,
+				B533207527040C62007A99CF /* View+Extensions.swift in Sources */,
 				B533203F2704009C007A99CF /* GardenTutorial.xcdatamodeld in Sources */,
+				B533206D27040606007A99CF /* Vegetable.swift in Sources */,
+				B533206B270405CD007A99CF /* Webservice.swift in Sources */,
+				B533207227040A51007A99CF /* VegetableListScreen.swift in Sources */,
 				B533203C2704009C007A99CF /* Persistence.swift in Sources */,
-				B533203527040098007A99CF /* ContentView.swift in Sources */,
+				B5332070270408A4007A99CF /* VegetableListViewModel.swift in Sources */,
 				B533203327040098007A99CF /* GardenTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,12 +501,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GardenTutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GardenTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,12 +531,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GardenTutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GardenTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
